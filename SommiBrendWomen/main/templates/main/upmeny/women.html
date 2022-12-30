@@ -1,0 +1,27 @@
+{% extends 'main/upmeny/base.html' %}
+{% load static %}
+
+{% block shapka %}
+Женское
+{% endblock %}
+
+{% block style %}
+<link rel="stylesheet" href="{% static 'css/stylesglav.css' %}" >
+{% endblock %}
+
+
+{% block basa %}
+
+<div class="meny_niz">
+    <u1 class="n">
+        <li><a href="/newwomen">Новинки</a></li>
+        <li><a href="/odezdawomen">Одежда</a></li>
+        <li><a href="/obuwwomen">Обувь</a></li>
+        <li><a href="/acsesuariwomen">Аксесуары</a></li>
+        <li><a href="/salewomen">SALE</a></li>
+    </u1>
+</div>
+
+{% block basewomen %}{% endblock %}
+<h1> Женсоке </h1>
+{% endblock %}
